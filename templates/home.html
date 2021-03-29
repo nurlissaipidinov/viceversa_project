@@ -1,20 +1,7 @@
-<!DOCTYPE html>
-<html>
-<body>
-
-<h2>Textarea</h2>
-<p>The textarea element defines a multi-line input field.</p>
-
-<form action="/action_page.php">
-  <textarea name="message" rows="10" cols="30">The cat was playing in the garden.</textarea>
-  <br><br>
-  <input type="submit">
-  <p>Something</p>
-  <p>Какой то текст</p>
-  <h1>Мой большой текст</h1>
-  <input type="submit">
-
+<h1>Vice Versa</h1>
+<form action="{% url 'reverse' %}">
+      <textarea cols="50" rows="10" name ="usertext"></textarea>
+      <br><br>
+      <input type="submit" value="Reverse!">
 </form>
 
-</body>
-</html>
